@@ -8,3 +8,10 @@ double kill_me_please_euclide(Point A, Point B) {
 double kill_me_please_city(Point A, Point B) {
 	return std::abs(A.first()-B.first())+std::abs(A.second()-B.second())+std::abs(A.third()-B.third());
 }
+
+double kill_me_please_discrete(Point A, Point B) {
+	if ((A.first()==B.first()) and (A.second()==B.second()) and (A.third()==B.third())) {
+		return 0;
+	}
+	else return 1;
+}

@@ -8,5 +8,6 @@ int main(){
 	Point B(1, 1, 1);
 	cout << kill_me_please_euclide(A, B) << endl;
     cout << kill_me_please_city(A, B) << endl;
+    cout << kill_me_please_discrete(A, B) << endl;
 	return 0;
 };
